@@ -33,3 +33,10 @@ Cylon.robot({
     });    
  }
 }).start();
+
+// Description: https://github.com/hybridgroup/cylon-api-socketio
+Cylon.api('http',
+{
+    host: '192.168.0.144',
+    port: '3001'
+});
